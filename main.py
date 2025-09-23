@@ -33,3 +33,4 @@ print(f"my gpa is : {gpa}")
 #condition
 isStudent =True
 print(isStudent)
+print(f"are you student? {isStudent}")
