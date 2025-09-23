@@ -30,6 +30,6 @@ print(f"your item is price of : {price}")
 print(f"my gpa is : {gpa}")
 
 
-
+#condition
 isStudent =True
 print(isStudent)
