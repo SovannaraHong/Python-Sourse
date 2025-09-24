@@ -34,3 +34,5 @@ print(f"my gpa is : {gpa}")
 isStudent =True
 print(isStudent)
 print(f"are you student? {isStudent}")
+
+print(f"so the total is your name is {firt_name}")
