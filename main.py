@@ -35,4 +35,4 @@ isStudent =True
 print(isStudent)
 print(f"are you student? {isStudent}")
 
-print(f"so the total is your name is {firt_name}")
+print(f"so the total is your name is {firt_name} and your favorite food is {food}")
