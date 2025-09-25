@@ -19,5 +19,7 @@ first_name ="hong sovannara"
 ages =30
 price =3.2
 single =False
-
-print(type(ages))
+price =int(price)
+first_name =float(first_name)
+print(first_name)
+print(price)
