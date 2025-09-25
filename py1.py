@@ -10,3 +10,14 @@ if(is_Student):
     print(f"you cant drink {drink}")
 else:
     print(f"you can drink {drink}")
+
+
+
+#type of string int float bool
+
+first_name ="hong sovannara"
+ages =30
+price =3.2
+single =False
+
+print(type(ages))
