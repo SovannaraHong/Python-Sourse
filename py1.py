@@ -23,3 +23,4 @@ price =int(price)
 first_name =float(first_name)
 print(first_name)
 print(price)
+#s
