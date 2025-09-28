@@ -1,7 +1,7 @@
 #method in python have len find rfind
 
 name =input("enter your name:")
-phone_number=input("enter your phone number:")
+# phone_number=input("enter your phone number:")
 # result =name.find("g")check the index
 # result =len(name)
 # result =name.rfind("n") revers check letter
@@ -14,5 +14,6 @@ phone_number=input("enter your phone number:")
 
 
 # result =phone_number.count("+") count item
+result =name.find(" ")
 print(result)
 
