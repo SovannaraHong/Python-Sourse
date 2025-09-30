@@ -1,4 +1,5 @@
-initialPrice=0
+
+
 interestRate=0
 time=0
 
