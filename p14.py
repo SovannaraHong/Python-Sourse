@@ -21,15 +21,22 @@
 
 #loop data in arr ============================================
 
+# list =[] it can with duplicate it can remove change or add
+#Set ={} it cant duplicates you can add and remove, but it can not change
+#Tuple=() You want a fixed collection of items that shouldn’t change.
+#Often used for returning multiple values from a function.
 
-fruits=["apple","banana","orange","coconut"]
+
+#============================================
+#list==============
+# fruits=["apple","banana","orange","coconut"]
 # print(fruits)
 # for x in fruits:
 #     print(x)
 # print(dir(fruits)) #showing function all
 # print(len(fruits)) # count in arr or count text in string
 # print(help(fruits)) #show detail
-# print("apple" in fruits) # return true false
+# print("apple" in fruits) # return true false find item
 # fruits.append("mango")
 # fruits.remove("banana")
 # fruits.insert(2,"mango") #insert by index
@@ -39,3 +46,34 @@ fruits=["apple","banana","orange","coconut"]
 # fruits.clear() #it clear all items
 # print(fruits.index("banana")) #print output by index
 # print(fruits.count("orange")) #count item in arr
+
+#Set ==============================
+
+fruits={"apple","banana","orange"}
+# print(dir(fruits))
+# fruits.add("pineapple")
+# fruits.remove("orange")
+# fruits.pop()
+# fruits.clear()
+# for fruits in fruits:
+#     print(fruits)
+#
+# a= {1,2,3,4,5}
+# b={1,2,3,4,5,6,7,8,9}
+# print(a,b)
+# print(a&b)
+# print(a|b)
+#
+
+
+#tuple ===========================
+
+num =(19,29,39,45)
+
+def get_name (age):
+    return age
+print(get_name(num))
+for nums in num :
+    print(nums)
+# print(num.index(29))
+# print(num.count(1))
