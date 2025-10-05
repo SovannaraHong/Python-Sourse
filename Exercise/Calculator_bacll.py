@@ -1,7 +1,4 @@
 
-
-
-
 while True:
     khmer = input("Enter your khmer number here: ")
     while True:
@@ -40,7 +37,7 @@ while True:
     print(f"your math is {math}")
     print(f"your english is {english}")
     print(f"your history is {history}")
-    totalScore = khmer + math + english + history /100
+    totalScore = khmer + math + english + history
     print(f"your total score is {round(totalScore)}")
     if totalScore <237:
         print("your Greate is F")

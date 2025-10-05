@@ -77,3 +77,9 @@ for nums in num :
     print(nums)
 # print(num.index(29))
 # print(num.count(1))
+
+
+
+arr_num =[1,2,3,4,5,56,7,8,9,9,9,3,2,4,5,6,]
+
+print(set(arr_num))
